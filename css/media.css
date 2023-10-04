@@ -86,15 +86,150 @@
 /* END Header */
 
 
-/* Section 1 Effective Solutions for Your Business *
+/* Section 1 Effective Solutions for Your Business */
+@media only screen and (min-resolution: 192dpi) {
+    .hero-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/mob/people-office_mob@2x.jpg);
+    }
+}
+@media only screen and (min-width: 768px) {
+    .hero-section {
+        max-width: 768px;
+        padding: 112px 0;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/tab/people-office_tab.jpg);
+    }
+}
+
+@media only screen and (min-width: 768px) and (min-resolution: 192dpi) {
+    .hero-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/tab/people-office_tab@2x.jpg);
+    }
+}
+
+@media only screen and (min-width: 1158px) {
+    .hero-section {
+        max-width: 1440px;
+        padding: 188px 0;
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/people-office.jpg);
+    }
+}
+
+@media only screen and (min-width: 1158px) and (min-resolution: 192dpi) {
+    .hero-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url(../images/desktop@2x/people-office_desktop@2x.jpg);
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .hero-title {
+        max-width: 496px;
+        font-size: 56px;
+        line-height: 1.07;
+        padding: 0;
+    }
+}
 /* END Section 1 Effective Solutions for Your Business */
 
 
 /* Section 2 Ways to achieve the goal */
+@media screen and (min-width: 768px) {
+    .advantage-list {
+        gap: 24px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .advantage-list {
+        flex-wrap: nowrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .advantage-item {
+        display: flex;
+        flex-basis: calc((100% - 24px) / 2);
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .advantage-item {
+        width: calc((100% - 72px) / 4);
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .advantage-icon {
+        display: flex;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .advantage-title {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .advantages-text {
+        font-weight: 400;
+    }
+}
 /* END Section 2 Ways to achieve the goal */
 
 
 /* Section 3 Our Team */
+@media screen and (min-width: 768px) {
+    .ourteam {
+        padding: 96px 92px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .ourteam {
+        padding: 120px 0;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .ourteam-ul {
+        align-items: center;
+        gap: 64px 24px;
+    }
+}
+
+@media only screen and (min-width: 1158px) {
+    .ourteam-ul {
+        flex-wrap: nowrap;
+        gap: 24px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .ourteam-li {
+        max-width: 264px;
+        flex-basis: calc((100% - 24px) / 2);
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .ourteam-li {
+        flex-basis: calc((100% - 72px) / 4);
+        min-width: 264px;
+    }
+}
 /* END Section 3 Our Team */
 
 
